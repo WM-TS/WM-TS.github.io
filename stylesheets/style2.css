@@ -1,0 +1,93 @@
+body {          
+   background: url("https://i.imgur.com/LPlRV0U.png");
+   background-size: cover;
+   background-position: center;
+}
+
+* {
+   box-sizing: border-box;
+   font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+   font-size: 16px;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+.login {
+   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+   display:block;
+   margin:auto;
+   width: 28%;
+   padding: 1% ;
+   padding-bottom: 2%;
+   border-radius: 10px;
+}
+
+.login form {
+   display: inline-block;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-top: 20px;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.login form input[type="password"], .login form input[type="text"] {
+   border-radius: 4px;
+   height: 50px;
+   border: 1px solid #dee0e4;
+   padding: 0 19px;
+   margin: auto;
+   width: 82%;
+}
+
+.level-logo {
+   display: block;
+   margin: auto;
+   width: 90%;
+   padding: 20px;
+}
+
+.login form input[type="submit"] {
+   border-radius: 4px;
+   margin: auto;
+   border: 0;
+   font-size: 20pt;
+   width: 92%;
+   padding: 25px;
+   margin-top: 30px;
+   background-color: #13a3e4;
+   cursor: pointer;
+   font-weight: bold;
+   color: #ffffff;
+   transition: background-color 0.2s;
+   border: 3px solid white;
+}
+.login form input[type="submit"]:hover {
+   background-color: #2868c7;
+   transition: background-color 0.2s;
+}
+
+.logo-image {
+   width:14%;
+   display:block;
+   margin:auto;
+   padding-top: 60px;
+   padding-bottom: 10px;
+}
+
+.title {
+   text-align: center;
+   color: white;
+   font-size: 76pt;
+   margin: 0;
+}
+
+.caption {
+   color: white;
+   margin: auto;
+   text-align: center;
+   margin-top: 3%;
+}
+

@@ -1,0 +1,212 @@
+    body {          background: url("https://i.imgur.com/5b8Xzko.png");
+         background-position: center;
+         background-size: fill;
+
+      }
+
+      * {
+   box-sizing: border-box;
+   font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+   font-size: 16px;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+.login {
+   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+   display:block;
+    margin:auto;
+    width: 18%;
+    padding: 1% ;
+    padding-bottom: 2%;
+            background-color: #13a3e4;
+            border-radius: 10px ;
+            border: 5px solid white;
+
+}
+
+.login form {
+   display: inline-block;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-top: 20px;
+   margin: auto;
+   display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.login form input[type="password"], .login form input[type="text"] {
+      border-radius: 4px;
+
+   height: 50px;
+   border: 1px solid #dee0e4;
+   padding: 0 19px;
+   margin: auto;
+   width: 82%;
+
+}
+.login form input[type="submit"] {
+      border-radius: 4px;
+
+      margin: auto;
+border: 0;
+   width: 82%;
+   padding: 15px;
+   margin-top: 20px;
+   background-color: #3274d6;
+   cursor: pointer;
+   font-weight: bold;
+   color: #ffffff;
+   transition: background-color 0.2s;
+}
+.login form input[type="submit"]:hover {
+
+   background-color: #2868c7;
+   transition: background-color 0.2s;
+}
+
+.logo-image {
+   width:3%;
+   height: 10%;
+   padding: 30px;
+}
+
+.title {
+   text-align: center;
+   color: white;
+   font-size: 76pt;
+   margin: 0;
+
+
+}
+
+.title {
+   font-family: Brushot;
+   letter-spacing: 5px;
+  font-weight: bold;
+  src: url("Brushot-Bold.otf") format("opentype");
+}
+
+.caption {
+   color: white;
+   margin: auto;
+   text-align: center;
+   margin-top: 3%;
+}
+
+
+.pdf {
+   margin: 0 auto;
+}
+
+.pdf-container {
+   margin: auto;
+}
+
+
+:root {
+  --line-border-fill: orange;
+  --line-border-empty: #e0e0e0;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  padding-top: 35px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+justify-content: center;
+}
+
+.progress-container::before {
+  content: "";
+  background: var(--line-border-empty);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 100%;
+  z-index: -1;
+}
+
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 30px;
+  max-width: 100%;
+  width: 750px;
+}
+
+.progress {
+  background: var(--line-border-fill);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 0%;
+  z-index: -1;
+  transition: 0.4s ease;
+}
+
+.circle {
+  background: #fff;
+  color: #999;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--line-border-empty);
+  transition: .4s ease;
+}
+
+.circle.active {
+  border-color: var(--line-border-fill);
+}
+
+.btn {
+  background-color: var(--line-border-fill);
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  border: 0;
+  border-radius: 6px;
+  padding: 8px 30px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.quiz {
+  transform: scale(0.98);
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:disabled {
+  background-color: var(--line-border-empty);
+  cursor: not-allowed;
+}

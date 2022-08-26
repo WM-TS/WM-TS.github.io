@@ -1,0 +1,328 @@
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 8%; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+ background-color: black /* Black*/  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 30px; /* Place content 60px from the top */
+  transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */
+  border: 5px solid #f76301;
+  border-bottom: none;
+  border-top: none;
+}
+.pdf {
+      margin-left: 500px;
+    }
+
+
+.logo {
+  border: 2px solid #f76301;
+  margin: auto;
+  display: block;
+  border-radius: 250px;
+  padding: 5px;
+  box-shadow: 0px 10px 5px black;
+}
+
+
+.container-logos {
+  padding: 15%; width: 100%; 
+}
+
+#yeaight {
+  margin: 0 auto; height: 50px; width: 50px; border-radius: 30px; border: 5px solid black; display: inline-block;
+}
+
+#uno {
+  display: inline-block; margin: 0 auto;  color: white; 
+}
+
+#chiaight {
+  margin: 0;  display: inline-block; float: right;
+}
+
+#dos {
+  display: inline-block; color: white;
+}
+
+#mySidenav2 {
+  height: 100%; /* 100% Full-height */
+  width: 15%; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 8.5%;
+ background-color: black /* Black*/  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 30px; /* Place content 60px from the top */
+  transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */
+  border-right: 4px solid #f76301;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: black;
+}
+
+li a {text-decoration : none; color : #2d2f31;}
+
+
+nav {
+    padding-top: 5%;
+
+  width : 100%; 
+  margin : 0 auto; 
+}
+
+span {
+  color : white;
+  font-size : 1.2em;
+  display: block;
+   font-size: 12pt;
+  padding: 3%;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #632800;
+  background-color: #FF6600;
+  width: 95%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+span::after {
+  float: left;
+  content: "";
+}
+
+.slide {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.slide li {color : white;
+  font-size : 1.2em;
+  display: block;
+   font-size: 12pt;
+  padding: 3%;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #632800;
+  background-color: #FF6600;
+  width: 95%;
+  margin: 0 auto;}
+
+
+.slide a {
+  color: white;
+}  
+.slidee {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.slidee li {color : white;
+  font-size : 1.2em;
+  display: block;
+   font-size: 12pt;
+  padding: 3%;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #632800;
+  background-color: #FF6600;
+  width: 95%;
+  margin: 0 auto;}
+
+
+.slidee a {
+  color: white;
+}  
+
+.slideee {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.slideee li {color : white;
+  font-size : 1.2em;
+  display: block;
+   font-size: 12pt;
+  padding: 3%;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #632800;
+  background-color: #FF6600;
+  width: 95%;
+  margin: 0 auto;}
+
+
+.slideee a {
+  color: white;
+}  
+
+.slideeee {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.slideeee li {color : white;
+  font-size : 1.2em;
+  display: block;
+   font-size: 12pt;
+  padding: 3%;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #632800;
+  background-color: #FF6600;
+  width: 95%;
+  margin: 0 auto;}
+
+
+.slideeee a {
+  color: white;
+}  
+
+.slideeeee {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.slideeeee li {color : white;
+  font-size : 1.2em;
+  display: block;
+   font-size: 12pt;
+  padding: 3%;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #632800;
+  background-color: #FF6600;
+  width: 95%;
+  margin: 0 auto;}
+
+
+.slideeeee a {
+  color: white;
+}  
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: 60px;} 
+
+#touchh {position: absolute; opacity: 0; height: 0px;}    
+
+#touchh:checked + .slidee {height: 120px;} 
+
+#touchhh {position: absolute; opacity: 0; height: 0px;}    
+
+#touchhh:checked + .slideee {height: 130px;} 
+
+#touchhhh {position: absolute; opacity: 0; height: 0px;}    
+
+#touchhhh:checked + .slideeee {height: 70px;} 
+
+#touchhhhh {position: absolute; opacity: 0; height: 0px;}    
+
+#touchhhhh:checked + .slideeeee {height: 300px;} 
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
+
+.item {
+  margin: 100px auto;
+  border: 2px solid #f76301;
+  display: block;
+  border-radius: 150px;
+  padding: 10px;
+  box-shadow: 0px 10px 5px black;
+  width: 70%;
+}
+
+.items {
+  margin: 0;
+  font-size: 20px;
+}
+
+#topics {
+  font-size: 30pt;
+  padding: 3%;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 3px solid #f76301;
+
+  width: 90%;
+  display: block;
+  margin: auto;
+
+}
+
+.itemss {
+   font-size: 12pt;
+  padding: 3%;
+  color: white;
+  margin: 3%;
+  border-radius: 10px;
+  border: 2px solid #632800;
+  background-color: #FF6600;
+}
+
+#w {
+  margin-top: 10spx;
+    color: white;
+
+}
+
+#d {
+  margin-top: 10px;
+    color: white;
+
+}
